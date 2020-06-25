@@ -1,4 +1,4 @@
-![image](https://github.com/f416720001/EnglishTestWithVueandTTS/blob/master/06252.png)
+![image_EnglishTest](https://github.com/f416720001/EnglishTestWithVueandTTS/blob/master/06252.png)
 # 英文測驗 + TTS
 ## 使用套件
 1. Vue.js 2.6.11
@@ -33,7 +33,7 @@ var vm = new Vue({
 https://jsfiddle.net/f416720001/u2bm5a8f/1/
 
 ## RWD 手機版排版
-![image](https://github.com/f416720001/EnglishTestWithVueandTTS/blob/master/0625.png)
+![image_RWD](https://github.com/f416720001/EnglishTestWithVueandTTS/blob/master/06253.png)
 
 ## 英文測驗參考youtube
 https://www.youtube.com/watch?v=maFbo96YT8U
