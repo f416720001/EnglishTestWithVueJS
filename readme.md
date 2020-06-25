@@ -1,14 +1,15 @@
-# ­^¤å´úÅç + TTS
-## ¨Ï¥Î®M¥ó
+![image](https://github.com/f416720001/EnglishTestWithVueandTTS/blob/master/06252.png)
+# è‹±æ–‡æ¸¬é©— + TTS
+## ä½¿ç”¨å¥—ä»¶
 1. Vue.js 2.6.11
 2. animate.css 4.1.0
 3. bootstrap 4.5.0
 4. speechSynthesis TTS
 
-## Demo ºô§}
+## Demo ç¶²å€
 https://codepen.io/f416720001/full/wvMdmKQ
 
-## TTS °Ñ¦Òºô§}¡AVueJS¹ê§@¤èªk¤]¦b¦¹¦ê³Ì¤U¤è¯d¨¥
+## TTS åƒè€ƒç¶²å€ï¼ŒVueJSå¯¦ä½œæ–¹æ³•ä¹Ÿåœ¨æ­¤ä¸²æœ€ä¸‹æ–¹ç•™è¨€
 https://gist.github.com/Eotones/d67be7262856a79a77abeeccef455ebf#gistcomment-3353454
 
 <pre><code>
@@ -28,10 +29,13 @@ var vm = new Vue({
 }
 </code></pre>
 
-## TTS µL®Ø¬[¼gªk
+## TTS ç„¡æ¡†æ¶å¯«æ³•
 https://jsfiddle.net/f416720001/u2bm5a8f/1/
 
-## ­^¤å´úÅç°Ñ¦Òyoutube
+## RWD æ‰‹æ©Ÿç‰ˆæ’ç‰ˆ
+![image](https://github.com/f416720001/EnglishTestWithVueandTTS/blob/master/0625.png)
+
+## è‹±æ–‡æ¸¬é©—åƒè€ƒyoutube
 https://www.youtube.com/watch?v=maFbo96YT8U
 
 ## Contact
