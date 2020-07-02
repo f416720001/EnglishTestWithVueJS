@@ -12,8 +12,7 @@ https://codepen.io/f416720001/full/wvMdmKQ
 ## TTS 參考網址，VueJS實作方法也在此串最下方留言
 https://gist.github.com/Eotones/d67be7262856a79a77abeeccef455ebf#gistcomment-3353454
 
-<pre><code>
-var vm = new Vue({
+<pre><code>var vm = new Vue({
   el: "#app",
   data: {
     synth: window.speechSynthesis
@@ -51,17 +50,14 @@ https://www.youtube.com/watch?v=maFbo96YT8U
 html 增加一個class，叫做other;
 vue 新增一個布林值 canAnswer，false時觸發other class;
 other 使用 pointer-events: none 禁止所有滑鼠事件
-<pre><code>
-[css]
+<pre><code>[css]
 li.other {
   pointer-events: none;
 }
-[html]
-<li
-   v-for="option in options"
-   @click.once="check(option)"
-   :class="{ correct: status == '正確' && option.correct, error: status == '錯誤' && option.english == choosed.english, other: canAnswer == false}"
->
+
+[html] li標籤內新增這一行
+:class="{ other: canAnswer == false}"
+
 [javascript]
 var vm = new Vue({
   data: {
@@ -76,8 +72,7 @@ var vm = new Vue({
 </code></pre>
 
 4. 音效播放
-<pre><code>
-[javascript]
+<pre><code>[javascript]
 var file = new Audio("./audio/correct.mp3");
 file.play();
 </code></pre>
